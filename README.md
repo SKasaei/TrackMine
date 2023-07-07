@@ -2,5 +2,5 @@
 Topic Tracking in Model Mining using Genetic Algorithm
 
 Required resources are:
-## Java runtime environment 1.8 (or greater)
-## Required JARs are available from Maven Central: https://mvnrepository.com/artifact/org.eclipse.epsilon
+- Java runtime environment 1.8 (or greater)
+- Required JARs are available from Maven Central: https://mvnrepository.com/artifact/org.eclipse.epsilon
