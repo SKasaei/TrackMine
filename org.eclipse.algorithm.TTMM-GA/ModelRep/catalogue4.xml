@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<catalogue>
+	<product id="Pa" quantity="9"/>
+	<product id="Pc" quantity="10"/>
+	<product id="Pd" quantity="11"/>
+	<product id="Pe" quantity="12"/>
+</catalogue>

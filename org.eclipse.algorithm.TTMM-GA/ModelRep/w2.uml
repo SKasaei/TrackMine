@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_fC-f0GDREeydGosTHJxErA" name="V1">
+  <packagedElement xmi:type="uml:Package" xmi:id="_iLJxsGDREeydGosTHJxErA" name="WareHouse">
+    <packagedElement xmi:type="uml:Class" xmi:id="_Ke4YkG-WEeyWxtWO2gcwMg" name="BarcodeReader">
+      <ownedAttribute xmi:id="_L6I1oG-WEeyWxtWO2gcwMg" name="n_barcodeReader"/>
+      <ownedAttribute xmi:id="_MXrGMG-WEeyWxtWO2gcwMg" name="ex_terminalDevice"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_N1iyYG-WEeyWxtWO2gcwMg" name="Crate">
+      <ownedAttribute xmi:id="_N1iyYW-WEeyWxtWO2gcwMg" name="n_crate"/>
+      <ownedAttribute xmi:id="_N1iyYm-WEeyWxtWO2gcwMg" name="supplyUnloader"/>
+      <ownedAttribute xmi:id="_N1iyY2-WEeyWxtWO2gcwMg" name="fascia"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_OAF1gG-WEeyWxtWO2gcwMg" name="DesktopComputer">
+      <ownedAttribute xmi:id="_OAF1gW-WEeyWxtWO2gcwMg" name="n_desktopComputer"/>
+      <ownedAttribute xmi:id="_OAF1gm-WEeyWxtWO2gcwMg" name="ex_terminalDevice"/>
+      <ownedAttribute xmi:id="_OAF1g2-WEeyWxtWO2gcwMg" name="translationTable"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_OLGLoG-WEeyWxtWO2gcwMg" name="Employee">
+      <ownedAttribute xmi:id="_OLGLoW-WEeyWxtWO2gcwMg" name="n_employee"/>
+      <ownedAttribute xmi:id="_OLGLom-WEeyWxtWO2gcwMg" name="id"/>
+      <ownedAttribute xmi:id="_OLGLo2-WEeyWxtWO2gcwMg" name="name"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_OrkbcG-WEeyWxtWO2gcwMg" name="Fascia">
+      <ownedAttribute xmi:id="_OrkbcW-WEeyWxtWO2gcwMg" name="n_fascia"/>
+      <ownedAttribute xmi:id="_Orkbcm-WEeyWxtWO2gcwMg" name="color"/>
+      <ownedAttribute xmi:id="_Orkbc2-WEeyWxtWO2gcwMg" name="model"/>
+      <ownedAttribute xmi:id="_OrkbdG-WEeyWxtWO2gcwMg" name="sku"/>
+      <ownedAttribute xmi:id="_OrkbdW-WEeyWxtWO2gcwMg" name="pallet"/>
+      <ownedAttribute xmi:id="_Orkbdm-WEeyWxtWO2gcwMg" name="pickingRequest"/>
+      <ownedAttribute xmi:id="_Orkbd2-WEeyWxtWO2gcwMg" name="fascia"/>
+      <ownedAttribute xmi:id="_OrkbeG-WEeyWxtWO2gcwMg" name="sequencer"/>
+      <ownedAttribute xmi:id="_OrkbeW-WEeyWxtWO2gcwMg" name="supplyUnloader"/>
+      <ownedAttribute xmi:id="_Orkbem-WEeyWxtWO2gcwMg" name="replenishmentHandler"/>
+      <ownedAttribute xmi:id="_b-gbsG-XEeyWxtWO2gcwMg" name="crate"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Orkbe2-WEeyWxtWO2gcwMg" name="Loader">
+      <ownedAttribute xmi:id="_OrkbfG-WEeyWxtWO2gcwMg" name="n_loader"/>
+      <ownedAttribute xmi:id="_OrkbfW-WEeyWxtWO2gcwMg" name="ex_team"/>
+      <ownedAttribute xmi:id="_Orkbfm-WEeyWxtWO2gcwMg" name="getPallets"/>
+      <ownedAttribute xmi:id="_Orkbf2-WEeyWxtWO2gcwMg" name="loadPallets"/>
+      <ownedAttribute xmi:id="_OrkbgG-WEeyWxtWO2gcwMg" name="sendFascias"/>
+      <ownedAttribute xmi:id="_OrkbgW-WEeyWxtWO2gcwMg" name="pallet"/>
+      <ownedAttribute xmi:id="_Orkbgm-WEeyWxtWO2gcwMg" name="pickingRequest"/>
+      <ownedAttribute xmi:id="_Orkbg2-WEeyWxtWO2gcwMg" name="truck"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Orkbhm-WEeyWxtWO2gcwMg" name="OrderHandler">
+      <ownedAttribute xmi:id="_Orkbh2-WEeyWxtWO2gcwMg" name="n_orderHandler"/>
+      <ownedAttribute xmi:id="_OrkbiG-WEeyWxtWO2gcwMg" name="ex_team"/>
+      <ownedAttribute xmi:id="_OrkbiW-WEeyWxtWO2gcwMg" name="inputOrder"/>
+      <ownedAttribute xmi:id="_Orkbim-WEeyWxtWO2gcwMg" name="createPickingRequest"/>
+      <ownedAttribute xmi:id="_Orkbi2-WEeyWxtWO2gcwMg" name="pickingRequest"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_OrkbkW-WEeyWxtWO2gcwMg" name="Pallet">
+      <ownedAttribute xmi:id="_Orkbkm-WEeyWxtWO2gcwMg" name="n_pallet"/>
+      <ownedAttribute xmi:id="_Orkbk2-WEeyWxtWO2gcwMg" name="fascia"/>
+      <ownedAttribute xmi:id="_OrkblG-WEeyWxtWO2gcwMg" name="frontOrBack"/>
+      <ownedAttribute xmi:id="_OrkblW-WEeyWxtWO2gcwMg" name="locationOnTruck"/>
+      <ownedAttribute xmi:id="_Orkblm-WEeyWxtWO2gcwMg" name="fascia"/>
+      <ownedAttribute xmi:id="_Orkbl2-WEeyWxtWO2gcwMg" name="truck"/>
+      <ownedAttribute xmi:id="_OrkbmG-WEeyWxtWO2gcwMg" name="sequencer"/>
+      <ownedAttribute xmi:id="_OrkbmW-WEeyWxtWO2gcwMg" name="loader"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O5j0IG-WEeyWxtWO2gcwMg" name="Picker">
+      <ownedAttribute xmi:id="_O5j0IW-WEeyWxtWO2gcwMg" name="n_picker"/>
+      <ownedAttribute xmi:id="_O5j0Im-WEeyWxtWO2gcwMg" name="ex_team"/>
+      <ownedAttribute xmi:id="_O5j0I2-WEeyWxtWO2gcwMg" name="getPickingRequest"/>
+      <ownedAttribute xmi:id="_O5j0JG-WEeyWxtWO2gcwMg" name="getFascias"/>
+      <ownedAttribute xmi:id="_O5j0JW-WEeyWxtWO2gcwMg" name="sendFascias"/>
+      <ownedAttribute xmi:id="_O5j0Jm-WEeyWxtWO2gcwMg" name="pickingRequest"/>
+      <ownedAttribute xmi:id="_O5j0J2-WEeyWxtWO2gcwMg" name="fascia"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O5j0K2-WEeyWxtWO2gcwMg" name="PickingRequest">
+      <ownedAttribute xmi:id="_O5j0LG-WEeyWxtWO2gcwMg" name="n_pickingRequest"/>
+      <ownedAttribute xmi:id="_O5j0LW-WEeyWxtWO2gcwMg" name="pallet"/>
+      <ownedAttribute xmi:id="_O5j0Lm-WEeyWxtWO2gcwMg" name="pickingRoute"/>
+      <ownedAttribute xmi:id="_O5j0L2-WEeyWxtWO2gcwMg" name="fascia"/>
+      <ownedAttribute xmi:id="_O5j0MG-WEeyWxtWO2gcwMg" name="pickingRequest"/>
+      <ownedAttribute xmi:id="_O5j0MW-WEeyWxtWO2gcwMg" name="truck"/>
+      <ownedAttribute xmi:id="_O5j0Mm-WEeyWxtWO2gcwMg" name="orderHandler"/>
+      <ownedAttribute xmi:id="_O5j0M2-WEeyWxtWO2gcwMg" name="picker"/>
+      <ownedAttribute xmi:id="_O5j0NG-WEeyWxtWO2gcwMg" name="sequencer"/>
+      <ownedAttribute xmi:id="_O5j0NW-WEeyWxtWO2gcwMg" name="loader"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O5j0Nm-WEeyWxtWO2gcwMg" name="PickingRequestQueue">
+      <ownedAttribute xmi:id="_O5j0N2-WEeyWxtWO2gcwMg" name="n_pickingRequestQueue"/>
+      <ownedAttribute xmi:id="_O5j0OG-WEeyWxtWO2gcwMg" name="truck"/>
+      <ownedAttribute xmi:id="_O5j0OW-WEeyWxtWO2gcwMg" name="pickingRequest"/>
+      <ownedAttribute xmi:id="_O5j0Om-WEeyWxtWO2gcwMg" name="truck"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O5kbMG-WEeyWxtWO2gcwMg" name="ReplenishmentHandler">
+      <ownedAttribute xmi:id="_O5kbMW-WEeyWxtWO2gcwMg" name="n_replenishmentHandler"/>
+      <ownedAttribute xmi:id="_O5kbMm-WEeyWxtWO2gcwMg" name="ex_team"/>
+      <ownedAttribute xmi:id="_O5kbM2-WEeyWxtWO2gcwMg" name="replenishFascias"/>
+      <ownedAttribute xmi:id="_O5kbNG-WEeyWxtWO2gcwMg" name="fascia"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_uJe-YG-XEeyWxtWO2gcwMg" name="Sequencer">
+      <ownedAttribute xmi:id="_uJe-YW-XEeyWxtWO2gcwMg" name="n_sequencer"/>
+      <ownedAttribute xmi:id="_uJe-Ym-XEeyWxtWO2gcwMg" name="ex_team"/>
+      <ownedAttribute xmi:id="_uJe-Y2-XEeyWxtWO2gcwMg" name="getPickingRequest"/>
+      <ownedAttribute xmi:id="_uJe-ZG-XEeyWxtWO2gcwMg" name="getFascias"/>
+      <ownedAttribute xmi:id="_uJe-ZW-XEeyWxtWO2gcwMg" name="sequenceFascias"/>
+      <ownedAttribute xmi:id="_uJe-Zm-XEeyWxtWO2gcwMg" name="sendPallets"/>
+      <ownedAttribute xmi:id="_uJe-Z2-XEeyWxtWO2gcwMg" name="fascia"/>
+      <ownedAttribute xmi:id="_uJe-aG-XEeyWxtWO2gcwMg" name="pickingRequest"/>
+      <ownedAttribute xmi:id="_uJe-aW-XEeyWxtWO2gcwMg" name="pallet"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_uJe-a2-XEeyWxtWO2gcwMg" name="SupplyUnloader">
+      <ownedAttribute xmi:id="_uJe-bG-XEeyWxtWO2gcwMg" name="n_supplyUnloader"/>
+      <ownedAttribute xmi:id="_uJe-bW-XEeyWxtWO2gcwMg" name="ex_team"/>
+      <ownedAttribute xmi:id="_uJe-bm-XEeyWxtWO2gcwMg" name="createCrate"/>
+      <ownedAttribute xmi:id="_uJe-b2-XEeyWxtWO2gcwMg" name="createFascia"/>
+      <ownedAttribute xmi:id="_uJe-cG-XEeyWxtWO2gcwMg" name="crate"/>
+      <ownedAttribute xmi:id="_uJe-cW-XEeyWxtWO2gcwMg" name="fascia"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_uJe-dm-XEeyWxtWO2gcwMg" name="Team">
+      <ownedAttribute xmi:id="_uJe-d2-XEeyWxtWO2gcwMg" name="n_team"/>
+      <ownedAttribute xmi:id="_uJe-eG-XEeyWxtWO2gcwMg" name="id"/>
+      <ownedAttribute xmi:id="_uJe-eW-XEeyWxtWO2gcwMg" name="isAvailable"/>
+      <ownedAttribute xmi:id="_uJe-em-XEeyWxtWO2gcwMg" name="numberOfEmployees"/>
+      <ownedAttribute xmi:id="_uJe-e2-XEeyWxtWO2gcwMg" name="employee"/>
+      <ownedAttribute xmi:id="_uJe-fG-XEeyWxtWO2gcwMg" name="terminalDevice"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_TbnYIG-YEeyWxtWO2gcwMg" name="TerminalDevice">
+      <ownedAttribute xmi:id="_TbnYIW-YEeyWxtWO2gcwMg" name="n_terminalDevice"/>
+      <ownedAttribute xmi:id="_TbnYIm-YEeyWxtWO2gcwMg" name="id"/>
+      <ownedAttribute xmi:id="_TbnYI2-YEeyWxtWO2gcwMg" name="state"/>
+      <ownedAttribute xmi:id="_TbnYJG-YEeyWxtWO2gcwMg" name="team"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_TbnYK2-YEeyWxtWO2gcwMg" name="TranslationTable">
+      <ownedAttribute xmi:id="_TbnYLG-YEeyWxtWO2gcwMg" name="n_translationTable"/>
+      <ownedAttribute xmi:id="_TbnYLW-YEeyWxtWO2gcwMg" name="color"/>
+      <ownedAttribute xmi:id="_TbnYLm-YEeyWxtWO2gcwMg" name="model"/>
+      <ownedAttribute xmi:id="_TbnYL2-YEeyWxtWO2gcwMg" name="frontFasciaSKU"/>
+      <ownedAttribute xmi:id="_TbnYMG-YEeyWxtWO2gcwMg" name="rearFasciaSKU"/>
+      <ownedAttribute xmi:id="_TbnYMW-YEeyWxtWO2gcwMg" name="desktopComputer"/>
+      <ownedAttribute xmi:id="_TbnYMm-YEeyWxtWO2gcwMg" name="fascia"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Tbn_MG-YEeyWxtWO2gcwMg" name="Truck">
+      <ownedAttribute xmi:id="_Tbn_MW-YEeyWxtWO2gcwMg" name="n_truck"/>
+      <ownedAttribute xmi:id="_Tbn_Mm-YEeyWxtWO2gcwMg" name="id"/>
+      <ownedAttribute xmi:id="_Tbn_M2-YEeyWxtWO2gcwMg" name="pickingRequestQueue"/>
+      <ownedAttribute xmi:id="_Tbn_NG-YEeyWxtWO2gcwMg" name="pickingRequest"/>
+      <ownedAttribute xmi:id="_Tbn_NW-YEeyWxtWO2gcwMg" name="pallet"/>
+      <ownedAttribute xmi:id="_Tbn_Nm-YEeyWxtWO2gcwMg" name="loader"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_fC-f0GDREeydGosTHJxErA" name="V12">
+  <packagedElement xmi:type="uml:Package" xmi:id="_iLJxsGDREeydGosTHJxErA" name="WareHouse">
+    <packagedElement xmi:type="uml:Class" xmi:id="_Ke4YkG-WEeyWxtWO2gcwMg" name="FasciaDirection">
+      <ownedAttribute xmi:id="_L6I1oG-WEeyWxtWO2gcwMg" name="n_fasciaDirection"/>
+      <ownedAttribute xmi:id="_MXrGMG-WEeyWxtWO2gcwMg" name="zone"/>
+      <ownedAttribute xmi:id="_Mgec4G-WEeyWxtWO2gcwMg" name="aisle"/>
+      <ownedAttribute xmi:id="_MpAGwG-WEeyWxtWO2gcwMg" name="rack"/>
+      <ownedAttribute xmi:id="_MxAzQG-WEeyWxtWO2gcwMg" name="level"/>
+      <ownedAttribute xmi:id="_NS1G4G-WEeyWxtWO2gcwMg" name="pickingRequest"/>
+      <ownedAttribute xmi:id="_NS1G4W-WEeyWxtWO2gcwMg" name="warehouseTraversalInterface"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_N1iyYG-WEeyWxtWO2gcwMg" name="Handheld">
+      <ownedAttribute xmi:id="_N1iyYW-WEeyWxtWO2gcwMg" name="n_handheld"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_OAF1gG-WEeyWxtWO2gcwMg" name="LoadingTeam">
+      <ownedAttribute xmi:id="_OAF1gW-WEeyWxtWO2gcwMg" name="n_loadingTeam"/>
+      <ownedAttribute xmi:id="_OAF1gm-WEeyWxtWO2gcwMg" name="sequencingTeam"/>
+      <ownedAttribute xmi:id="_OAF1g2-WEeyWxtWO2gcwMg" name="picker"/>
+      <ownedAttribute xmi:id="_OAF1hG-WEeyWxtWO2gcwMg" name="pickingRequest"/>
+      <ownedAttribute xmi:id="_OAF1hW-WEeyWxtWO2gcwMg" name="loadingTeamHandheld"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_OLGLoG-WEeyWxtWO2gcwMg" name="LoadingTeamHandheld">
+      <ownedAttribute xmi:id="_OLGLoW-WEeyWxtWO2gcwMg" name="n_loadingTeamHandheld"/>
+      <ownedAttribute xmi:id="_OLGLom-WEeyWxtWO2gcwMg" name="ex_handheld"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_OrkbcG-WEeyWxtWO2gcwMg" name="Order">
+      <ownedAttribute xmi:id="_OrkbcW-WEeyWxtWO2gcwMg" name="n_order"/>
+      <ownedAttribute xmi:id="_Orkbcm-WEeyWxtWO2gcwMg" name="model"/>
+      <ownedAttribute xmi:id="_Orkbc2-WEeyWxtWO2gcwMg" name="color"/>
+      <ownedAttribute xmi:id="_OrkbdG-WEeyWxtWO2gcwMg" name="skuFront"/>
+      <ownedAttribute xmi:id="_OrkbdW-WEeyWxtWO2gcwMg" name="skuBack"/>
+      <ownedAttribute xmi:id="_Orkbdm-WEeyWxtWO2gcwMg" name="pickingRequest"/>
+      <ownedAttribute xmi:id="_Orkbd2-WEeyWxtWO2gcwMg" name="orderQueue"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Orkbe2-WEeyWxtWO2gcwMg" name="OrderQueue">
+      <ownedAttribute xmi:id="_OrkbfG-WEeyWxtWO2gcwMg" name="n_orderQueue"/>
+      <ownedAttribute xmi:id="_OrkbfW-WEeyWxtWO2gcwMg" name="order"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Orkbhm-WEeyWxtWO2gcwMg" name="Picker">
+      <ownedAttribute xmi:id="_Orkbh2-WEeyWxtWO2gcwMg" name="n_picker"/>
+      <ownedAttribute xmi:id="_OrkbiG-WEeyWxtWO2gcwMg" name="name"/>
+      <ownedAttribute xmi:id="_OrkbiW-WEeyWxtWO2gcwMg" name="pickingRequestQueue"/>
+      <ownedAttribute xmi:id="_Orkbim-WEeyWxtWO2gcwMg" name="loadingTeam"/>
+      <ownedAttribute xmi:id="_Orkbi2-WEeyWxtWO2gcwMg" name="sequencingTeam"/>
+      <ownedAttribute xmi:id="_OrkbjG-WEeyWxtWO2gcwMg" name="pickingRequest"/>
+      <ownedAttribute xmi:id="_OrkbjW-WEeyWxtWO2gcwMg" name="rack"/>
+      <ownedAttribute xmi:id="_Orkbjm-WEeyWxtWO2gcwMg" name="pickerHandheld"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_OrkbkW-WEeyWxtWO2gcwMg" name="PickerHandheld">
+      <ownedAttribute xmi:id="_Orkbkm-WEeyWxtWO2gcwMg" name="n_pickerHandheld"/>
+      <ownedAttribute xmi:id="_Orkbk2-WEeyWxtWO2gcwMg" name="ex_handheld"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O5j0IG-WEeyWxtWO2gcwMg" name="PickingRequest">
+      <ownedAttribute xmi:id="_O5j0IW-WEeyWxtWO2gcwMg" name="n_pickingRequest"/>
+      <ownedAttribute xmi:id="_O5j0Im-WEeyWxtWO2gcwMg" name="id"/>
+      <ownedAttribute xmi:id="_O5j0I2-WEeyWxtWO2gcwMg" name="directions"/>
+      <ownedAttribute xmi:id="_O5j0JG-WEeyWxtWO2gcwMg" name="pickingRequestQueue"/>
+      <ownedAttribute xmi:id="_O5j0JW-WEeyWxtWO2gcwMg" name="order"/>
+      <ownedAttribute xmi:id="_O5j0Jm-WEeyWxtWO2gcwMg" name="warehouseTraversalInterface"/>
+      <ownedAttribute xmi:id="_O5j0J2-WEeyWxtWO2gcwMg" name="fasciaDirection"/>
+      <ownedAttribute xmi:id="_O5j0KG-WEeyWxtWO2gcwMg" name="picker"/>
+      <ownedAttribute xmi:id="_O5j0KW-WEeyWxtWO2gcwMg" name="sequencingTeam"/>
+      <ownedAttribute xmi:id="_O5j0Km-WEeyWxtWO2gcwMg" name="loadingTeam"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O5j0K2-WEeyWxtWO2gcwMg" name="PickingRequestQueue">
+      <ownedAttribute xmi:id="_O5j0LG-WEeyWxtWO2gcwMg" name="n_pickingRequestQueue"/>
+      <ownedAttribute xmi:id="_O5j0LW-WEeyWxtWO2gcwMg" name="pickingRequest"/>
+      <ownedAttribute xmi:id="_O5j0Lm-WEeyWxtWO2gcwMg" name="picker"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O5j0Nm-WEeyWxtWO2gcwMg" name="Rack">
+      <ownedAttribute xmi:id="_O5j0N2-WEeyWxtWO2gcwMg" name="n_rack"/>
+      <ownedAttribute xmi:id="_O5j0OG-WEeyWxtWO2gcwMg" name="sku"/>
+      <ownedAttribute xmi:id="_O5j0OW-WEeyWxtWO2gcwMg" name="numberOfFascias"/>
+      <ownedAttribute xmi:id="_O5j0Om-WEeyWxtWO2gcwMg" name="picker"/>
+      <ownedAttribute xmi:id="_O5j0O2-WEeyWxtWO2gcwMg" name="replenishingTeam"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O5kbMG-WEeyWxtWO2gcwMg" name="ReplenishingTeam">
+      <ownedAttribute xmi:id="_O5kbMW-WEeyWxtWO2gcwMg" name="n_replenishingTeam"/>
+      <ownedAttribute xmi:id="_O5kbMm-WEeyWxtWO2gcwMg" name="rack"/>
+      <ownedAttribute xmi:id="_O5kbM2-WEeyWxtWO2gcwMg" name="replenishingTeamHandheld"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_boWEAG_PEey3LJ8SJkJGbg" name="ReplenishingTeamHandheld">
+      <ownedAttribute xmi:id="_boWEAW_PEey3LJ8SJkJGbg" name="n_replenishingTeamHandheld"/>
+      <ownedAttribute xmi:id="_boWEAm_PEey3LJ8SJkJGbg" name="ex_handheld"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_boWEC2_PEey3LJ8SJkJGbg" name="SequencingTeam">
+      <ownedAttribute xmi:id="_boWEDG_PEey3LJ8SJkJGbg" name="n_sequencingTeam"/>
+      <ownedAttribute xmi:id="_boWEDW_PEey3LJ8SJkJGbg" name="picker"/>
+      <ownedAttribute xmi:id="_boWEDm_PEey3LJ8SJkJGbg" name="loadingTeam"/>
+      <ownedAttribute xmi:id="_boWED2_PEey3LJ8SJkJGbg" name="pickingRequest"/>
+      <ownedAttribute xmi:id="_boWEEG_PEey3LJ8SJkJGbg" name="sequencingTeamHandheld"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_boWEFm_PEey3LJ8SJkJGbg" name="SequencingTeamHandheld">
+      <ownedAttribute xmi:id="_boWEF2_PEey3LJ8SJkJGbg" name="n_sequencingTeamHandheld"/>
+      <ownedAttribute xmi:id="_boWEGG_PEey3LJ8SJkJGbg" name="ex_handheld"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_boWEIW_PEey3LJ8SJkJGbg" name="Warehouse">
+      <ownedAttribute xmi:id="_boWEIm_PEey3LJ8SJkJGbg" name="n_warehouse"/>
+      <ownedAttribute xmi:id="_boWEI2_PEey3LJ8SJkJGbg" name="rack"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_boWELG_PEey3LJ8SJkJGbg" name="WarehouseTraversalInterface">
+      <ownedAttribute xmi:id="_boWELW_PEey3LJ8SJkJGbg" name="n_warehouseTraversalInterface"/>
+      <ownedAttribute xmi:id="_boWELm_PEey3LJ8SJkJGbg" name="fasciaDirection"/>
+      <ownedAttribute xmi:id="_boWEL2_PEey3LJ8SJkJGbg" name="pickingRequest"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

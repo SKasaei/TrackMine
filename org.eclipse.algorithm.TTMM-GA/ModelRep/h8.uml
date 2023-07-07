@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_n-py8F90EeyHGut-QakN3w" name="V7">
+  <packagedElement xmi:type="uml:Package" xmi:id="_qnfdcF90EeyHGut-QakN3w" name="Hospital">
+    <packagedElement xmi:type="uml:Class" xmi:id="_r3CZwF90EeyHGut-QakN3w" name="AdminAssistant">
+      <ownedAttribute xmi:id="_ssrBQF90EeyHGut-QakN3w" name="n_adminAssistant"/>
+      <ownedAttribute xmi:id="_tV7ZoF90EeyHGut-QakN3w" name="ex_medicalTeam"/>
+      <ownedAttribute xmi:id="_uL2VAF90EeyHGut-QakN3w" name="calendar"/>
+      <ownedAttribute xmi:id="_uL2VAV90EeyHGut-QakN3w" name="procedure"/>
+      <ownedAttribute xmi:id="_uYOkIF90EeyHGut-QakN3w" name="schedule"/>
+      <ownedAttribute xmi:id="_uYPyQF90EeyHGut-QakN3w" name="record"/>
+      <ownedAttribute xmi:id="_uhM58F90EeyHGut-QakN3w" name="patientProfile"/>
+      <ownedAttribute xmi:id="_uhM58V90EeyHGut-QakN3w" name="database"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_v23FUF90EeyHGut-QakN3w" name="Bed">
+      <ownedAttribute xmi:id="_v23FUV90EeyHGut-QakN3w" name="n_bed"/>
+      <ownedAttribute xmi:id="_v23FUl90EeyHGut-QakN3w" name="id"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_v-ySQF90EeyHGut-QakN3w" name="BookingCalendar">
+      <ownedAttribute xmi:id="_v-ySQV90EeyHGut-QakN3w" name="n_bookingCalendar"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wFqWUF90EeyHGut-QakN3w" name="Calendar">
+      <ownedAttribute xmi:id="_wFqWUV90EeyHGut-QakN3w" name="n_calendar"/>
+      <ownedAttribute xmi:id="_wFqWUl90EeyHGut-QakN3w" name="medicalTeam"/>
+      <ownedAttribute xmi:id="_wFqWU190EeyHGut-QakN3w" name="database"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wMZQcF90EeyHGut-QakN3w" name="Database">
+      <ownedAttribute xmi:id="_wMZQcV90EeyHGut-QakN3w" name="n_database"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wTD5IF90EeyHGut-QakN3w" name="Diagnosis">
+      <ownedAttribute xmi:id="_wTD5IV90EeyHGut-QakN3w" name="n_diagnosis"/>
+      <ownedAttribute xmi:id="_wTD5Il90EeyHGut-QakN3w" name="description"/>
+      <ownedAttribute xmi:id="_wTD5I190EeyHGut-QakN3w" name="physician"/>
+      <ownedAttribute xmi:id="_wTD5JF90EeyHGut-QakN3w" name="history"/>
+      <ownedAttribute xmi:id="_wTD5JV90EeyHGut-QakN3w" name="wardStay"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wZeDIF90EeyHGut-QakN3w" name="Display">
+      <ownedAttribute xmi:id="_wZeDIV90EeyHGut-QakN3w" name="n_display"/>
+      <ownedAttribute xmi:id="_wZeDIl90EeyHGut-QakN3w" name="scanner"/>
+      <ownedAttribute xmi:id="_wZeDI190EeyHGut-QakN3w" name="room"/>
+      <ownedAttribute xmi:id="_wZeDJF90EeyHGut-QakN3w" name="unit"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wfw4YF90EeyHGut-QakN3w" name="Equipment">
+      <ownedAttribute xmi:id="_wfw4YV90EeyHGut-QakN3w" name="n_equipment"/>
+      <ownedAttribute xmi:id="_wfw4Yl90EeyHGut-QakN3w" name="type"/>
+      <ownedAttribute xmi:id="_wfw4Y190EeyHGut-QakN3w" name="ward"/>
+      <ownedAttribute xmi:id="_wfw4ZF90EeyHGut-QakN3w" name="technician"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wmaS8F90EeyHGut-QakN3w" name="GeneralStorage">
+      <ownedAttribute xmi:id="_wmaS8V90EeyHGut-QakN3w" name="n_generalStorage"/>
+      <ownedAttribute xmi:id="_wmaS8l90EeyHGut-QakN3w" name="ex_unit"/>
+      <ownedAttribute xmi:id="_wmaS8190EeyHGut-QakN3w" name="ward"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wsbbYF90EeyHGut-QakN3w" name="HealthCard">
+      <ownedAttribute xmi:id="_wsbbYV90EeyHGut-QakN3w" name="n_healthCard"/>
+      <ownedAttribute xmi:id="_wsbbYl90EeyHGut-QakN3w" name="name"/>
+      <ownedAttribute xmi:id="_wsbbY190EeyHGut-QakN3w" name="address"/>
+      <ownedAttribute xmi:id="_wsbbZF90EeyHGut-QakN3w" name="healthCardNum"/>
+      <ownedAttribute xmi:id="_wsbbZV90EeyHGut-QakN3w" name="scanner"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wyltwF90EeyHGut-QakN3w" name="History">
+      <ownedAttribute xmi:id="_wyltwV90EeyHGut-QakN3w" name="n_history"/>
+      <ownedAttribute xmi:id="_wyltwl90EeyHGut-QakN3w" name="record"/>
+      <ownedAttribute xmi:id="_wyltw190EeyHGut-QakN3w" name="diagnosis"/>
+      <ownedAttribute xmi:id="_wyltxF90EeyHGut-QakN3w" name="prescription"/>
+      <ownedAttribute xmi:id="_wyltxV90EeyHGut-QakN3w" name="procedure"/>
+      <ownedAttribute xmi:id="_wyltxl90EeyHGut-QakN3w" name="database"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_w4_3wF90EeyHGut-QakN3w" name="IDCard">
+      <ownedAttribute xmi:id="_w4_3wV90EeyHGut-QakN3w" name="n_iDCard"/>
+      <ownedAttribute xmi:id="_w4_3wl90EeyHGut-QakN3w" name="name"/>
+      <ownedAttribute xmi:id="_w4_3w190EeyHGut-QakN3w" name="id"/>
+      <ownedAttribute xmi:id="_w4_3xF90EeyHGut-QakN3w" name="medicalTeam"/>
+      <ownedAttribute xmi:id="_w4_3xV90EeyHGut-QakN3w" name="scanner"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_w_PpsF90EeyHGut-QakN3w" name="InPatient">
+      <ownedAttribute xmi:id="_w_PpsV90EeyHGut-QakN3w" name="n_inPatient"/>
+      <ownedAttribute xmi:id="_w_Ppsl90EeyHGut-QakN3w" name="ex_patient"/>
+      <ownedAttribute xmi:id="_w_Pps190EeyHGut-QakN3w" name="inPatientVisitRecord"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xFO88F90EeyHGut-QakN3w" name="InPatientVisitRecord">
+      <ownedAttribute xmi:id="_xFO88V90EeyHGut-QakN3w" name="n_inPatientVisitRecord"/>
+      <ownedAttribute xmi:id="_xFO88l90EeyHGut-QakN3w" name="ex_record"/>
+      <ownedAttribute xmi:id="_xFO88190EeyHGut-QakN3w" name="diagnosis"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xL6zwF90EeyHGut-QakN3w" name="IntraWardStay">
+      <ownedAttribute xmi:id="_xL6zwV90EeyHGut-QakN3w" name="n_intraWardStay"/>
+      <ownedAttribute xmi:id="_xL6zwl90EeyHGut-QakN3w" name="checkInDate"/>
+      <ownedAttribute xmi:id="_xL6zw190EeyHGut-QakN3w" name="checkInTime"/>
+      <ownedAttribute xmi:id="_xL6zxF90EeyHGut-QakN3w" name="checkOutDate"/>
+      <ownedAttribute xmi:id="_xL6zxV90EeyHGut-QakN3w" name="checkOutTime"/>
+      <ownedAttribute xmi:id="_xL6zxl90EeyHGut-QakN3w" name="room"/>
+      <ownedAttribute xmi:id="_xL6zx190EeyHGut-QakN3w" name="unit"/>
+      <ownedAttribute xmi:id="_xL6zyF90EeyHGut-QakN3w" name="bed"/>
+      <ownedAttribute xmi:id="_AROlgGCzEeyqys1XyiSmqg" name="status"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xSG7UF90EeyHGut-QakN3w" name="MedicalChart">
+      <ownedAttribute xmi:id="_xSG7UV90EeyHGut-QakN3w" name="n_medicalChart"/>
+      <ownedAttribute xmi:id="_xSG7Ul90EeyHGut-QakN3w" name="nurse"/>
+      <ownedAttribute xmi:id="_xSG7U190EeyHGut-QakN3w" name="wardStay"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xYhsYF90EeyHGut-QakN3w" name="MedicalTeam">
+      <ownedAttribute xmi:id="_xYhsYV90EeyHGut-QakN3w" name="n_medicalTeam"/>
+      <ownedAttribute xmi:id="_xYhsYl90EeyHGut-QakN3w" name="name"/>
+      <ownedAttribute xmi:id="_xYhsY190EeyHGut-QakN3w" name="id"/>
+      <ownedAttribute xmi:id="_xYhsZF90EeyHGut-QakN3w" name="idCard"/>
+      <ownedAttribute xmi:id="_xYhsZV90EeyHGut-QakN3w" name="scanner"/>
+      <ownedAttribute xmi:id="_xYhsZl90EeyHGut-QakN3w" name="calendar"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xeubAF90EeyHGut-QakN3w" name="Mobile">
+      <ownedAttribute xmi:id="_xeubAV90EeyHGut-QakN3w" name="n_mobile"/>
+      <ownedAttribute xmi:id="_xeubAl90EeyHGut-QakN3w" name="ex_equipment"/>
+      <ownedAttribute xmi:id="_xeubA190EeyHGut-QakN3w" name="generalStorage"/>
+      <ownedAttribute xmi:id="_xeubBF90EeyHGut-QakN3w" name="bookingCalendar"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xku8YF90EeyHGut-QakN3w" name="Nurse">
+      <ownedAttribute xmi:id="_xku8YV90EeyHGut-QakN3w" name="n_nurse"/>
+      <ownedAttribute xmi:id="_xku8Yl90EeyHGut-QakN3w" name="ex_medicalTeam"/>
+      <ownedAttribute xmi:id="_xku8Y190EeyHGut-QakN3w" name="ward"/>
+      <ownedAttribute xmi:id="_xku8ZF90EeyHGut-QakN3w" name="procedure"/>
+      <ownedAttribute xmi:id="_xku8ZV90EeyHGut-QakN3w" name="patient"/>
+      <ownedAttribute xmi:id="_xku8Zl90EeyHGut-QakN3w" name="history"/>
+      <ownedAttribute xmi:id="_xku8Z190EeyHGut-QakN3w" name="prescription"/>
+      <ownedAttribute xmi:id="_xku8aF90EeyHGut-QakN3w" name="medicalChart"/>
+      <ownedAttribute xmi:id="_bWYN4GCzEeyqys1XyiSmqg" name="physician"/>
+      <ownedAttribute xmi:id="_bWYN4WCzEeyqys1XyiSmqg" name="adminAssistant"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xqsacF90EeyHGut-QakN3w" name="OutPatient">
+      <ownedAttribute xmi:id="_xqsacV90EeyHGut-QakN3w" name="n_outPatient"/>
+      <ownedAttribute xmi:id="_xqsacl90EeyHGut-QakN3w" name="ex_patient"/>
+      <ownedAttribute xmi:id="_xqsac190EeyHGut-QakN3w" name="outPatientVisitRecord"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xwFQwF90EeyHGut-QakN3w" name="OutPatientVisitRecord">
+      <ownedAttribute xmi:id="_xwFQwV90EeyHGut-QakN3w" name="n_outPatientVisitRecord"/>
+      <ownedAttribute xmi:id="_xwFQwl90EeyHGut-QakN3w" name="ex_record"/>
+      <ownedAttribute xmi:id="_xwF30F90EeyHGut-QakN3w" name="diagnosis"/>
+      <ownedAttribute xmi:id="_xwF30V90EeyHGut-QakN3w" name="prescription"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_x2IOYF90EeyHGut-QakN3w" name="Patient">
+      <ownedAttribute xmi:id="_x2IOYV90EeyHGut-QakN3w" name="n_patient"/>
+      <ownedAttribute xmi:id="_x2IOYl90EeyHGut-QakN3w" name="healthCard"/>
+      <ownedAttribute xmi:id="_x2IOY190EeyHGut-QakN3w" name="wristBand"/>
+      <ownedAttribute xmi:id="_x2IOZF90EeyHGut-QakN3w" name="history"/>
+      <ownedAttribute xmi:id="_x2IOZV90EeyHGut-QakN3w" name="patientProfile"/>
+      <ownedAttribute xmi:id="_x2IOZ190EeyHGut-QakN3w" name="ward"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_UQrWgGCzEeyqys1XyiSmqg" name="PatientProfile">
+      <ownedAttribute xmi:id="_UQrWgWCzEeyqys1XyiSmqg" name="n_patientProfile"/>
+      <ownedAttribute xmi:id="_UQrWgmCzEeyqys1XyiSmqg" name="name"/>
+      <ownedAttribute xmi:id="_UQrWg2CzEeyqys1XyiSmqg" name="address"/>
+      <ownedAttribute xmi:id="_UQrWhGCzEeyqys1XyiSmqg" name="healthCard"/>
+      <ownedAttribute xmi:id="_UQrWhWCzEeyqys1XyiSmqg" name="remark"/>
+      <ownedAttribute xmi:id="_UQrWhmCzEeyqys1XyiSmqg" name="returnVisit"/>
+      <ownedAttribute xmi:id="_UQrWh2CzEeyqys1XyiSmqg" name="inPatientVisitRecord"/>
+      <ownedAttribute xmi:id="_UQrWiGCzEeyqys1XyiSmqg" name="wardStay"/>
+      <ownedAttribute xmi:id="_Rk4pMGC0Eeyqys1XyiSmqg" name="database"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_UQr9kGCzEeyqys1XyiSmqg" name="Physician">
+      <ownedAttribute xmi:id="_UQr9kWCzEeyqys1XyiSmqg" name="n_physician"/>
+      <ownedAttribute xmi:id="_UQr9kmCzEeyqys1XyiSmqg" name="ex_medicalTeam"/>
+      <ownedAttribute xmi:id="_UQr9k2CzEeyqys1XyiSmqg" name="history"/>
+      <ownedAttribute xmi:id="_UQr9lGCzEeyqys1XyiSmqg" name="procedure"/>
+      <ownedAttribute xmi:id="_UQr9lWCzEeyqys1XyiSmqg" name="prescription"/>
+      <ownedAttribute xmi:id="_UQr9lmCzEeyqys1XyiSmqg" name="diagnosis"/>
+      <ownedAttribute xmi:id="_UQr9l2CzEeyqys1XyiSmqg" name="ward"/>
+      <ownedAttribute xmi:id="_UQr9mGCzEeyqys1XyiSmqg" name="patient"/>
+      <ownedAttribute xmi:id="_ds1ScGC0Eeyqys1XyiSmqg" name="wardStay"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_UQr9mWCzEeyqys1XyiSmqg" name="Prescription">
+      <ownedAttribute xmi:id="_UQr9mmCzEeyqys1XyiSmqg" name="n_prescription"/>
+      <ownedAttribute xmi:id="_UQr9m2CzEeyqys1XyiSmqg" name="medication"/>
+      <ownedAttribute xmi:id="_UQr9nGCzEeyqys1XyiSmqg" name="amount"/>
+      <ownedAttribute xmi:id="_UQr9nWCzEeyqys1XyiSmqg" name="schedule"/>
+      <ownedAttribute xmi:id="_UQr9nmCzEeyqys1XyiSmqg" name="active"/>
+      <ownedAttribute xmi:id="_UQr9n2CzEeyqys1XyiSmqg" name="physician"/>
+      <ownedAttribute xmi:id="_UQr9oGCzEeyqys1XyiSmqg" name="history"/>
+      <ownedAttribute xmi:id="_UQr9oWCzEeyqys1XyiSmqg" name="nurse"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_UQr9omCzEeyqys1XyiSmqg" name="Procedure">
+      <ownedAttribute xmi:id="_UQr9o2CzEeyqys1XyiSmqg" name="n_procedure"/>
+      <ownedAttribute xmi:id="_UQr9pGCzEeyqys1XyiSmqg" name="description"/>
+      <ownedAttribute xmi:id="_UQr9pWCzEeyqys1XyiSmqg" name="physician"/>
+      <ownedAttribute xmi:id="_UQr9pmCzEeyqys1XyiSmqg" name="technician"/>
+      <ownedAttribute xmi:id="_UQr9p2CzEeyqys1XyiSmqg" name="nurse"/>
+      <ownedAttribute xmi:id="_UQr9qGCzEeyqys1XyiSmqg" name="adminAssistant"/>
+      <ownedAttribute xmi:id="_UQr9qWCzEeyqys1XyiSmqg" name="equipment"/>
+      <ownedAttribute xmi:id="_UQr9qmCzEeyqys1XyiSmqg" name="history"/>
+      <ownedAttribute xmi:id="_wAi6YGC0Eeyqys1XyiSmqg" name="wardStay"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_UlqvEGCzEeyqys1XyiSmqg" name="Record">
+      <ownedAttribute xmi:id="_UlqvEWCzEeyqys1XyiSmqg" name="n_record"/>
+      <ownedAttribute xmi:id="_UlqvEmCzEeyqys1XyiSmqg" name="date"/>
+      <ownedAttribute xmi:id="_UlqvE2CzEeyqys1XyiSmqg" name="time"/>
+      <ownedAttribute xmi:id="_UlqvFGCzEeyqys1XyiSmqg" name="healthProblems"/>
+      <ownedAttribute xmi:id="_UlqvFWCzEeyqys1XyiSmqg" name="adminAssistant"/>
+      <ownedAttribute xmi:id="_UlqvFmCzEeyqys1XyiSmqg" name="database"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_UlqvGWCzEeyqys1XyiSmqg" name="Room">
+      <ownedAttribute xmi:id="_UlqvGmCzEeyqys1XyiSmqg" name="n_room"/>
+      <ownedAttribute xmi:id="_UlqvG2CzEeyqys1XyiSmqg" name="roomNum"/>
+      <ownedAttribute xmi:id="_UlqvHGCzEeyqys1XyiSmqg" name="stationary"/>
+      <ownedAttribute xmi:id="_UlqvHWCzEeyqys1XyiSmqg" name="bed"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_UlqvImCzEeyqys1XyiSmqg" name="Scanner">
+      <ownedAttribute xmi:id="_UlqvI2CzEeyqys1XyiSmqg" name="n_scanner"/>
+      <ownedAttribute xmi:id="_UlqvJGCzEeyqys1XyiSmqg" name="display"/>
+      <ownedAttribute xmi:id="_UlqvJWCzEeyqys1XyiSmqg" name="idCard"/>
+      <ownedAttribute xmi:id="_UlqvJmCzEeyqys1XyiSmqg" name="wristBand"/>
+      <ownedAttribute xmi:id="_UlqvJ2CzEeyqys1XyiSmqg" name="healthCard"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_UlqvK2CzEeyqys1XyiSmqg" name="Schedule">
+      <ownedAttribute xmi:id="_UlqvLGCzEeyqys1XyiSmqg" name="n_schedule"/>
+      <ownedAttribute xmi:id="_UlqvLWCzEeyqys1XyiSmqg" name="database"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-koO4GC0Eeyqys1XyiSmqg" name="Stationary">
+      <ownedAttribute xmi:id="_-koO4WC0Eeyqys1XyiSmqg" name="n_stationary"/>
+      <ownedAttribute xmi:id="_-koO4mC0Eeyqys1XyiSmqg" name="ex_equipment"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-ko18GC0Eeyqys1XyiSmqg" name="Technician">
+      <ownedAttribute xmi:id="_-ko18WC0Eeyqys1XyiSmqg" name="n_technician"/>
+      <ownedAttribute xmi:id="_-ko18mC0Eeyqys1XyiSmqg" name="ex_medicalTeam"/>
+      <ownedAttribute xmi:id="_-ko182C0Eeyqys1XyiSmqg" name="bookingCalendar"/>
+      <ownedAttribute xmi:id="_-ko19GC0Eeyqys1XyiSmqg" name="procedure"/>
+      <ownedAttribute xmi:id="_-ko19WC0Eeyqys1XyiSmqg" name="equipment"/>
+      <ownedAttribute xmi:id="_-ko19mC0Eeyqys1XyiSmqg" name="schedule"/>
+      <ownedAttribute xmi:id="_-ko192C0Eeyqys1XyiSmqg" name="ward"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-6M2QGC0Eeyqys1XyiSmqg" name="Unit">
+      <ownedAttribute xmi:id="_-6NdUGC0Eeyqys1XyiSmqg" name="n_unit"/>
+      <ownedAttribute xmi:id="_-6NdUWC0Eeyqys1XyiSmqg" name="type"/>
+      <ownedAttribute xmi:id="_-6NdUmC0Eeyqys1XyiSmqg" name="description"/>
+      <ownedAttribute xmi:id="_-6NdU2C0Eeyqys1XyiSmqg" name="bed"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-6NdWGC0Eeyqys1XyiSmqg" name="Ward">
+      <ownedAttribute xmi:id="_-6NdWWC0Eeyqys1XyiSmqg" name="n_ward"/>
+      <ownedAttribute xmi:id="_-6NdWmC0Eeyqys1XyiSmqg" name="wardNum"/>
+      <ownedAttribute xmi:id="_-6NdW2C0Eeyqys1XyiSmqg" name="room"/>
+      <ownedAttribute xmi:id="_-6NdXGC0Eeyqys1XyiSmqg" name="generalStorage"/>
+      <ownedAttribute xmi:id="_-6NdXWC0Eeyqys1XyiSmqg" name="unit"/>
+      <ownedAttribute xmi:id="_-6NdXmC0Eeyqys1XyiSmqg" name="equipment"/>
+      <ownedAttribute xmi:id="_-6NdX2C0Eeyqys1XyiSmqg" name="technician"/>
+      <ownedAttribute xmi:id="_-6NdYGC0Eeyqys1XyiSmqg" name="physician"/>
+      <ownedAttribute xmi:id="_mf3Y4GC1Eeyqys1XyiSmqg" name="patient"/>
+      <ownedAttribute xmi:id="_n9Qj8GC1Eeyqys1XyiSmqg" name="nurse"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_djfTwGC1Eeyqys1XyiSmqg" name="WardStay">
+      <ownedAttribute xmi:id="_djfTwWC1Eeyqys1XyiSmqg" name="n_wardStay"/>
+      <ownedAttribute xmi:id="_djfTwmC1Eeyqys1XyiSmqg" name="checkInDate"/>
+      <ownedAttribute xmi:id="_djfTw2C1Eeyqys1XyiSmqg" name="checkInTime"/>
+      <ownedAttribute xmi:id="_djfTxGC1Eeyqys1XyiSmqg" name="checkOutDate"/>
+      <ownedAttribute xmi:id="_djfTxWC1Eeyqys1XyiSmqg" name="checkOutTime"/>
+      <ownedAttribute xmi:id="_djfTxmC1Eeyqys1XyiSmqg" name="status"/>
+      <ownedAttribute xmi:id="_djfTx2C1Eeyqys1XyiSmqg" name="physician"/>
+      <ownedAttribute xmi:id="_djfTyGC1Eeyqys1XyiSmqg" name="ward"/>
+      <ownedAttribute xmi:id="_wwFEcGC1Eeyqys1XyiSmqg" name="prescription"/>
+      <ownedAttribute xmi:id="_wwFEcWC1Eeyqys1XyiSmqg" name="medicalChart"/>
+      <ownedAttribute xmi:id="_zrZmEGC1Eeyqys1XyiSmqg" name="diagnosis"/>
+      <ownedAttribute xmi:id="_z0zZsGC1Eeyqys1XyiSmqg" name="intraWardStay"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_d1EL8GC1Eeyqys1XyiSmqg" name="WristBand">
+      <ownedAttribute xmi:id="_d1EL8WC1Eeyqys1XyiSmqg" name="n_wristBand"/>
+      <ownedAttribute xmi:id="_d1EL8mC1Eeyqys1XyiSmqg" name="registered"/>
+      <ownedAttribute xmi:id="_d1EL82C1Eeyqys1XyiSmqg" name="wristBandNum"/>
+      <ownedAttribute xmi:id="_d1EL9GC1Eeyqys1XyiSmqg" name="scanner"/>
+      <ownedAttribute xmi:id="_d1EL9WC1Eeyqys1XyiSmqg" name="patientProfile"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

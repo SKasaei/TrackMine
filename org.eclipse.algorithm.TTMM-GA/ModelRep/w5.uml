@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_fC-f0GDREeydGosTHJxErA" name="V4">
+  <packagedElement xmi:type="uml:Package" xmi:id="_iLJxsGDREeydGosTHJxErA" name="WareHouse">
+    <packagedElement xmi:type="uml:Class" xmi:id="_Ke4YkG-WEeyWxtWO2gcwMg" name="AdministrativeAssistant">
+      <ownedAttribute xmi:id="_L6I1oG-WEeyWxtWO2gcwMg" name="n_administrativeAssistant"/>
+      <ownedAttribute xmi:id="_MXrGMG-WEeyWxtWO2gcwMg" name="order"/>
+      <ownedAttribute xmi:id="_Mgec4G-WEeyWxtWO2gcwMg" name="faxMachine"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_N1iyYG-WEeyWxtWO2gcwMg" name="BarcodeReader">
+      <ownedAttribute xmi:id="_N1iyYW-WEeyWxtWO2gcwMg" name="n_barcodeReader"/>
+      <ownedAttribute xmi:id="_N1iyYm-WEeyWxtWO2gcwMg" name="picker"/>
+      <ownedAttribute xmi:id="_N1iyY2-WEeyWxtWO2gcwMg" name="pickingRequest"/>
+      <ownedAttribute xmi:id="_N1iyZG-WEeyWxtWO2gcwMg" name="display"/>
+      <ownedAttribute xmi:id="_N1iyZW-WEeyWxtWO2gcwMg" name="rack"/>
+      <ownedAttribute xmi:id="_N1iyZm-WEeyWxtWO2gcwMg" name="fascia"/>
+      <ownedAttribute xmi:id="_N1iyZ2-WEeyWxtWO2gcwMg" name="resupplier"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_OAF1gG-WEeyWxtWO2gcwMg" name="Client">
+      <ownedAttribute xmi:id="_OAF1gW-WEeyWxtWO2gcwMg" name="n_client"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_OLGLoG-WEeyWxtWO2gcwMg" name="Display">
+      <ownedAttribute xmi:id="_OLGLoW-WEeyWxtWO2gcwMg" name="n_display"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_OrkbcG-WEeyWxtWO2gcwMg" name="Fascia">
+      <ownedAttribute xmi:id="_OrkbcW-WEeyWxtWO2gcwMg" name="n_fascia"/>
+      <ownedAttribute xmi:id="_Orkbcm-WEeyWxtWO2gcwMg" name="sku"/>
+      <ownedAttribute xmi:id="_Orkbc2-WEeyWxtWO2gcwMg" name="forklift"/>
+      <ownedAttribute xmi:id="_OrkbdG-WEeyWxtWO2gcwMg" name="rack"/>
+      <ownedAttribute xmi:id="_OrkbdW-WEeyWxtWO2gcwMg" name="pallet"/>
+      <ownedAttribute xmi:id="_Orkbdm-WEeyWxtWO2gcwMg" name="shipment"/>
+      <ownedAttribute xmi:id="_Orkbd2-WEeyWxtWO2gcwMg" name="reserveRoom"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Orkbe2-WEeyWxtWO2gcwMg" name="FaxMachine">
+      <ownedAttribute xmi:id="_OrkbfG-WEeyWxtWO2gcwMg" name="n_faxMachine"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Orkbhm-WEeyWxtWO2gcwMg" name="Floor">
+      <ownedAttribute xmi:id="_Orkbh2-WEeyWxtWO2gcwMg" name="rack"/>
+      <ownedAttribute xmi:id="_OrkbiG-WEeyWxtWO2gcwMg" name="n_floor"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_OrkbkW-WEeyWxtWO2gcwMg" name="Forklift">
+      <ownedAttribute xmi:id="_Orkbkm-WEeyWxtWO2gcwMg" name="n_forklift"/>
+      <ownedAttribute xmi:id="_Orkbk2-WEeyWxtWO2gcwMg" name="marshallingArea"/>
+      <ownedAttribute xmi:id="_OrkblG-WEeyWxtWO2gcwMg" name="fascia"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O5j0IG-WEeyWxtWO2gcwMg" name="Loader">
+      <ownedAttribute xmi:id="_O5j0IW-WEeyWxtWO2gcwMg" name="n_loader"/>
+      <ownedAttribute xmi:id="_O5j0Im-WEeyWxtWO2gcwMg" name="pallet"/>
+      <ownedAttribute xmi:id="_O5j0I2-WEeyWxtWO2gcwMg" name="barcodeReader"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O5j0K2-WEeyWxtWO2gcwMg" name="LoadingArea">
+      <ownedAttribute xmi:id="_O5j0LG-WEeyWxtWO2gcwMg" name="n_loadingArea"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O5j0Nm-WEeyWxtWO2gcwMg" name="MarshallingArea">
+      <ownedAttribute xmi:id="_O5j0N2-WEeyWxtWO2gcwMg" name="n_marshallingArea"/>
+      <ownedAttribute xmi:id="_O5j0OG-WEeyWxtWO2gcwMg" name="forklift"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O5kbMG-WEeyWxtWO2gcwMg" name="Minivan">
+      <ownedAttribute xmi:id="_O5kbMW-WEeyWxtWO2gcwMg" name="n_minivan"/>
+      <ownedAttribute xmi:id="_O5kbMm-WEeyWxtWO2gcwMg" name="model"/>
+      <ownedAttribute xmi:id="_O5kbM2-WEeyWxtWO2gcwMg" name="color"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4b8G0G-xEey3LJ8SJkJGbg" name="Order">
+      <ownedAttribute xmi:id="_4b8G0W-xEey3LJ8SJkJGbg" name="n_order"/>
+      <ownedAttribute xmi:id="_4b8G0m-xEey3LJ8SJkJGbg" name="receiveTime"/>
+      <ownedAttribute xmi:id="_4b8G02-xEey3LJ8SJkJGbg" name="minivan"/>
+      <ownedAttribute xmi:id="_4b8G1G-xEey3LJ8SJkJGbg" name="administrativeAssistant"/>
+      <ownedAttribute xmi:id="_4b8G1W-xEey3LJ8SJkJGbg" name="translationTable"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4b8G22-xEey3LJ8SJkJGbg" name="Pallet">
+      <ownedAttribute xmi:id="_4b8G3G-xEey3LJ8SJkJGbg" name="n_pallet"/>
+      <ownedAttribute xmi:id="_4b8G3W-xEey3LJ8SJkJGbg" name="truck"/>
+      <ownedAttribute xmi:id="_4b8G3m-xEey3LJ8SJkJGbg" name="loadingArea"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4b8G5m-xEey3LJ8SJkJGbg" name="Picker">
+      <ownedAttribute xmi:id="_4b8G52-xEey3LJ8SJkJGbg" name="n_picker"/>
+      <ownedAttribute xmi:id="_4b8G6G-xEey3LJ8SJkJGbg" name="floor"/>
+      <ownedAttribute xmi:id="_4b8G6W-xEey3LJ8SJkJGbg" name="forklift"/>
+      <ownedAttribute xmi:id="_4b8G6m-xEey3LJ8SJkJGbg" name="barcodeReader"/>
+      <ownedAttribute xmi:id="_4b8G62-xEey3LJ8SJkJGbg" name="sequencer"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4b8G8W-xEey3LJ8SJkJGbg" name="PickingRequest">
+      <ownedAttribute xmi:id="_4b8G8m-xEey3LJ8SJkJGbg" name="n_pickingRequest"/>
+      <ownedAttribute xmi:id="_4b8G82-xEey3LJ8SJkJGbg" name="id"/>
+      <ownedAttribute xmi:id="_4b8G9G-xEey3LJ8SJkJGbg" name="sequencedStatus"/>
+      <ownedAttribute xmi:id="_4b8G9W-xEey3LJ8SJkJGbg" name="loadedStatus"/>
+      <ownedAttribute xmi:id="_4b8G9m-xEey3LJ8SJkJGbg" name="sku"/>
+      <ownedAttribute xmi:id="_4b8G92-xEey3LJ8SJkJGbg" name="barcodeReader"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4b8G_G-xEey3LJ8SJkJGbg" name="Rack">
+      <ownedAttribute xmi:id="_4b8G_W-xEey3LJ8SJkJGbg" name="n_rack"/>
+      <ownedAttribute xmi:id="_4b8G_m-xEey3LJ8SJkJGbg" name="zone"/>
+      <ownedAttribute xmi:id="_4b8G_2-xEey3LJ8SJkJGbg" name="aisle"/>
+      <ownedAttribute xmi:id="_4b8HAG-xEey3LJ8SJkJGbg" name="location"/>
+      <ownedAttribute xmi:id="_4b8HAW-xEey3LJ8SJkJGbg" name="level"/>
+      <ownedAttribute xmi:id="_4b8HAm-xEey3LJ8SJkJGbg" name="fascia"/>
+      <ownedAttribute xmi:id="_4b8HA2-xEey3LJ8SJkJGbg" name="barcodeReader"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4b8HB2-xEey3LJ8SJkJGbg" name="ReserveRoom">
+      <ownedAttribute xmi:id="_4b8HCG-xEey3LJ8SJkJGbg" name="n_reserveRoom"/>
+      <ownedAttribute xmi:id="_4b8HCW-xEey3LJ8SJkJGbg" name="fascia"/>
+      <ownedAttribute xmi:id="_4b8HCm-xEey3LJ8SJkJGbg" name="resupplier"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4b8t4G-xEey3LJ8SJkJGbg" name="Resupplier">
+      <ownedAttribute xmi:id="_4b8t4W-xEey3LJ8SJkJGbg" name="n_resupplier"/>
+      <ownedAttribute xmi:id="_4b8t4m-xEey3LJ8SJkJGbg" name="barcodeReader"/>
+      <ownedAttribute xmi:id="_4b8t42-xEey3LJ8SJkJGbg" name="reserveRoom"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4qPokG-xEey3LJ8SJkJGbg" name="Sequencer">
+      <ownedAttribute xmi:id="_4qPokW-xEey3LJ8SJkJGbg" name="n_sequencer"/>
+      <ownedAttribute xmi:id="_4qPokm-xEey3LJ8SJkJGbg" name="barcodeReader"/>
+      <ownedAttribute xmi:id="_4qPok2-xEey3LJ8SJkJGbg" name="picker"/>
+      <ownedAttribute xmi:id="_4qPolG-xEey3LJ8SJkJGbg" name="marshallingArea"/>
+      <ownedAttribute xmi:id="_4qPolW-xEey3LJ8SJkJGbg" name="fascia"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4qPom2-xEey3LJ8SJkJGbg" name="Shipment">
+      <ownedAttribute xmi:id="_4qPonG-xEey3LJ8SJkJGbg" name="n_shipment"/>
+      <ownedAttribute xmi:id="_4qPonW-xEey3LJ8SJkJGbg" name="fascia"/>
+      <ownedAttribute xmi:id="_4qPonm-xEey3LJ8SJkJGbg" name="reserveRoom"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4qPopm-xEey3LJ8SJkJGbg" name="SKUSet">
+      <ownedAttribute xmi:id="_4qPop2-xEey3LJ8SJkJGbg" name="n_skuSet"/>
+      <ownedAttribute xmi:id="_4qPoqG-xEey3LJ8SJkJGbg" name="frontFasciaSKU"/>
+      <ownedAttribute xmi:id="_4qPoqW-xEey3LJ8SJkJGbg" name="backFasciaSKU"/>
+      <ownedAttribute xmi:id="_4qPoqm-xEey3LJ8SJkJGbg" name="pickingRequest"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4qPosW-xEey3LJ8SJkJGbg" name="TranslationTable">
+      <ownedAttribute xmi:id="_4qPosm-xEey3LJ8SJkJGbg" name="n_translationTable"/>
+      <ownedAttribute xmi:id="_4qPos2-xEey3LJ8SJkJGbg" name="sku"/>
+      <ownedAttribute xmi:id="_4qPotG-xEey3LJ8SJkJGbg" name="order"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4qPovG-xEey3LJ8SJkJGbg" name="Truck">
+      <ownedAttribute xmi:id="_4qPovW-xEey3LJ8SJkJGbg" name="n_truck"/>
+      <ownedAttribute xmi:id="_4qPovm-xEey3LJ8SJkJGbg" name="client"/>
+      <ownedAttribute xmi:id="_4qPov2-xEey3LJ8SJkJGbg" name="pallet"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
