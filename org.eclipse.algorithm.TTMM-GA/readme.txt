@@ -1,1 +1,1 @@
-JAVA implementation of TrackMine
+JAVA implementation of TrackMine which refers to TTMM-GA
