@@ -1,4 +1,4 @@
-# TTMM-GA
+# TrackMine
 Topic Tracking in Model Mining using Genetic Algorithm
 
 Required resources are:
